@@ -1,7 +1,7 @@
 console.log('Bongo! We\'re running buddy!')
 
 function toggle() {
-    let lodging = document.querySelector('.lodging-sub-text')
+    let lodging = document.getElementsByClassName('lodging-sub-text')[0]
     console.log(lodging)
     if (lodging.style.display === 'block') {
         lodging.style.display = 'none';
