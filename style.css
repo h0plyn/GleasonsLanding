@@ -95,7 +95,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
-
 }
 
 .container {
@@ -168,16 +167,13 @@ p {
     margin-top: 2em;
 }
 
-#hookups {
-}
 
-#lodging {
-
+.lodging-sub-text {
+    display: none;
 }
 
 #box-solid-bg {
     background-color: #9FC299;
-   
 }
 
 #fish-vector {
