@@ -97,6 +97,11 @@ p {
     z-index: 1;
 }
 
+#facilities, #nature, #recreation {
+    margin-top: -9vh;
+    padding-top: 9vh;   
+}
+
 .container {
     flex-direction: column;
     height: 100%;
@@ -168,8 +173,11 @@ p {
 }
 
 
-.lodging-sub-text {
+.facilities-sub-text, .nature-sub-text, .recreation-sub-text {
     display: none;
+    border-bottom: #9FC299 solid 1.5rem;
+    border-top: #9FC299 solid 1.5rem;
+
 }
 
 #box-solid-bg {
@@ -183,7 +191,7 @@ p {
     background-size: 20%;
 }
 
-#ranch-img {
+#facilities-img {
     background-image: url('images/pere-sunset.jpg');
     background-position: center;
     background-repeat: no-repeat;

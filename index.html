@@ -16,9 +16,9 @@
             <span>GLEASON'S LANDING</span>
         </div>
         <div class="nav-link">
-            <a href="#lodging">Lodging</a>
-            <a href="#resources">Resources</a>
-            <a href="#about">About</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#nature">Nature</a>
+            <a href="#recreation">Recreation</a>
         </div>
     </nav>
 
@@ -26,101 +26,119 @@
     <div class="banner flex" id="top">
         <div class="container flex">
             <div class="ban-msg">
-            <h1>Trout in the midwest, not all the way out west.</h1>
+            <h1>Overlooking the picturesque Pere Marquette River</h1>
             </div>
             <div class="ban-sub-msg">
-                <p>Gleason's Landing is the premiere trout fishing outfit throughout steelhead alley providing all of the steelhead fishing & lodging of the fabled  western destinations, right in your backyard.</p>
+                <p>With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion.</p>
             </div>
         </div>
     </div>
     
-    <!--Section 1 - Hookups Guaranteed-->
-    <section class="hookups box flex" id="hookups">
+    <!--Section 1 - Overview-->
+    <section class="box flex" id="overview">
         <div class="flex left-box" id="fish-vector">
         </div> 
         <div class="flex right-box box-text">
             <div>
                 <div>
-                    <h2 id="grey">Hookups guaranteed</h2>
+                    <!-- <h2 id="grey">Placeholder</h2> -->
                 </div>
                 <div>
-                    <p id="grey">Our guides stay on the river to keep you on the fish</p>
+                    <p id="grey">Gleasons Landing is a very popular campground on the banks of the Pere Marquette River. With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion. The Pere Marquette River was designated a National Scenic River in 1978, the first in Michigan, and it regularly attracts many canoeing, kayaking and fishing enthusiasts. The 66-mile stretch of river begins east of Baldwin and empties into Lake Michigan at Ludington</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Arrow -->
-    <a href="#lodging"><span class="fas fa-arrow-down fa-2x flex main-arrow" id="green"></span></a>
+    <a href="#facilities"><span class="fas fa-arrow-down fa-2x flex main-arrow" id="green"></span></a>
 
-    <!--Section 2 - Lodging-->
-    <div class="box flex" id="lodging">
+    <!--Section 2 - facilities-->
+    <div class="box flex" id="facilities">
         <div class="flex left-box box-text" id="box-solid-bg">
-            <h2>The Ranch</h2>
-            <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="white" onclick="toggle()"></span>
+            <h2>Facilities</h2>
+            <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="white" onclick="toggleFacilities()"></span>
         </div> 
-        <div class="flex right-box" id="ranch-img">
+        <div class="flex right-box" id="facilities-img">
         </div>
     </div>
     
     <!-- Section 2.5 More Info -->
-    <section class="lodging-sub-text">
+    <section class="facilities-sub-text">
         <div class="flex box-text box">
-            <p id="grey">Gleason's landing offers 14 primitive campsites</p>
+            <p id="grey">
+                Gleasons Landing is a very popular campground on the banks of the Pere Marquette River. With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion. The Pere Marquette River was designated a National Scenic River in 1978, the first in Michigan, and it regularly attracts many canoeing, kayaking and fishing enthusiasts. The 66-mile stretch of river begins east of Baldwin and empties into Lake Michigan at Ludington.
+            </p>
         </div> 
     </section>
 
-<!--Section 3 - Resources-->
-<section class="resources box flex" id="resources">
+<!--Section 3 - Nature-->
+<section class="nature box flex" id="nature">
     <div class="flex left-box" id="bent-rod">
         
     </div> 
     <div class="flex right-box box-text" id="right-box">
         <div>
             <div>
-                <h2 id="grey">Resources</h2>
+                <h2 id="grey">Nature</h2>
             </div>
             <div>
-                <p id="grey">Flies & Fishing Reports</p>
+                <p id="grey">A million acres to roam</p>
             </div>
-            <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="green"></span>
+            <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="green" onclick="toggleNature()"></span>
         </div>
     </div>
 </section>
+<!-- Section 3.5 More Info -->
+<section class="nature-sub-text">
+    <div class="flex box-text box">
+        <p id="grey">
+            Gleasons Landing is a very popular campground on the banks of the Pere Marquette River. With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion. The Pere Marquette River was designated a National Scenic River in 1978, the first in Michigan, and it regularly attracts many canoeing, kayaking and fishing enthusiasts. The 66-mile stretch of river begins east of Baldwin and empties into Lake Michigan at Ludington.
+        </p>
+    </div> 
+</section>
 
-<!--Section 4 - About-->
-<section class="about box flex" id="about">
+<!--Section 4 - Recreation-->
+<section class="box flex" id="recreation">
     <div class="flex left-box box-text"  id="box-solid-bg">
-        <h2>About Gleason's Landing</h2>
-        <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="white"></span>
+        <h2>Recreation</h2>
+        <span class="fas fa-arrow-down fa-lg flex sub-arrow" id="white" onclick="toggleRecreation()"></span>
     </div>
     
     <div class="flex right-box" id="fish-measure">
     </div>
+</section>
+<!-- Section 4.5 More Info -->
+<section class="recreation-sub-text">
+    <div class="flex box-text box">
+        <p id="grey">
+            Gleasons Landing is a very popular campground on the banks of the Pere Marquette River. With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion. The Pere Marquette River was designated a National Scenic River in 1978, the first in Michigan, and it regularly attracts many canoeing, kayaking and fishing enthusiasts. The 66-mile stretch of river begins east of Baldwin and empties into Lake Michigan at Ludington.
+        </p>
+    </div> 
 </section>
 
 <!--Footer Area-->
 <footer>
     <div class="foot-container">
             <div class="copyright">
-                <p class="foot-desc">Gleason's Landing is a full service fishing lodge located in Baldwin, MI. Since 2020, we have been serving the angling & naturalist community as a of the beaten path destination to truly disconnect from society and reconnect with the outdoors.</p>
+                <p class="foot-desc">Gleason's Landing is a campground on the banks of the Pere Marquette River. With a selection of shaded and secluded spots, the campground is perfect for peaceful nature immersion.</p>
             </div>
             <div class="col1">
                 <h3 class="list-header">CONTENT</h3>
                 <ul>
-                    <li>About</li>
-                    <li>Locations</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
+                    <li>Make Reservations</li>
+                    <li>Location</li>
+                    <li>Facilities</li>
+                    <li>Volunteer</li>
                     <li>FAQ</li>
-                    <li>Blog</li>
+                    <li>MIDNR</li>
                 </ul>
             </div>
             <div class="col2">
                 <h3 class="list-header">RESOURCES</h3>
                 <ul>
-                    <li>Become a Guide</li>
-                    <li>Intro to Steelhead</li>
-                    <li>Veterans Program</li>
+                    <li>Campground Map</li>
+                    <li>Fishing Report</li>
+                    <li>Hiking Trails</li>
                 </ul>
             </div>
             <div class="col3">
